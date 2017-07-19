@@ -1,0 +1,24 @@
+{
+    "name": "ngs/an-sao",
+    "description": "an sao tu vi",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "5.4.*"
+    },
+    "authors": [
+        {
+            "name": "Nuoc Gan Soi",
+            "email": "nuocgansoi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NGS\\": "src/"
+        },
+        "files": [
+            "src/Helpers/function.php"
+        ]
+    }
+}
